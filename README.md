@@ -15,12 +15,9 @@ A simple weather app built using **Flask** and **WeatherAPI**, allowing users to
    git clone https://github.com/your-username/weather-app.git
    cd weather-app
    Install dependencies:
-
-pip install flask requests
-
-Run the app:
-
-python app.py
+   pip install flask requests
+Run the app:   
+   python app.py
 
 API Key
 Replace the API_KEY in app.py with your own from WeatherAPI.
