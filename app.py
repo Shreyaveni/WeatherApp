@@ -2,8 +2,8 @@ from flask import Flask, request, render_template
 import requests
 
 app = Flask(__name__)
-API_KEY = "d0104c1719ba4c70a6450626251902"
-BASE_URL = "http://api.weatherapi.com/v1/current.json"
+API_KEY = "You_api_key"
+BASE_URL = "  "
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
